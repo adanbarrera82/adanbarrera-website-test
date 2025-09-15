@@ -1,0 +1,106 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #e6f0f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #007a33; 
+}
+
+#team-name {
+    font-size: 28px;
+    color: #007a33;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+.team-info {
+    border: 2px solid #007a33;
+    padding: 15px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #007a33;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+
+
+.section {
+    background-color: #d0e6da;
+    border: 2px solid #007a33;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    
+    margin-top: 25px;
+}
+
+.flex-item {
+    background-color: #ffffff;
+    border: 2px solid #007a33;
+    padding: 10px;
+    flex: 1;;
+    text-align: center;
+}
+
+
+a {
+    color: #007a33;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #005f26;
+}
+
+
+img {
+    display: block;
+    margin: 15px 0;
+    width: 200px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+}
+
+td, th {
+    border: 3px solid #007a33;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+td img {
+    display: block;
+    margin: 0 auto;
+}
+
+th {
+    background-color: #007a33;
+    color: white;
+}
